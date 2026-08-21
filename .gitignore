@@ -1,0 +1,21 @@
+# created by virtualenv automatically
+.idea
+*.idea
+__pycache__
+Scripts
+Lib
+pyvenv.cfg
+.xlsx
+*.csv
+.env
+*.xlsx
+.venv
+*.txt
+*.png
+*.log
+*.pkl.gz
+*.pkl
+chromedriver
+*.json
+.python-version
+browser_data/
