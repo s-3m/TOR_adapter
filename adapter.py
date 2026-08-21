@@ -7,7 +7,7 @@ def city_adapter():
     for item in data[:6]:
         result = {"meta": {"metaInfo": {}, "xsd": None}, "items": []}
         result["items"].append({"code": item["Код населенного пункта"]})
-        result["items"].append({"name": item["Наименование населенного пункта"]})
+        result["items"].append({"city_name": item["Наименование населенного пункта"]})
         result["items"].append({"parentEntries": "nsiUnifiedSPR_CITIES_EO_AGREGATOR"})
         result["items"].append({"dictionaryType": "unified"})
         result["items"].append({"dictionaryUnitId": None})
